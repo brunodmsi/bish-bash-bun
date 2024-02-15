@@ -1,0 +1,14 @@
+{
+  "name": "merge-videos",
+  "module": "index.ts",
+  "type": "module",
+	"scripts": {
+		"build-exec": "bun build ./$TO_BUILD.ts --compile --outfile $TO_BUILD"
+	},
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
