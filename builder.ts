@@ -2,7 +2,8 @@ import { $ } from 'bun'
 
 const scripts = [
 	'merge-videos',
-	'faster-video'
+	'faster-video',
+	'compress-video'
 ];
 
 for (let script of scripts) {
